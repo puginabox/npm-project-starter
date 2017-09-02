@@ -1,0 +1,38 @@
+######################
+#.gitignore template #
+######################
+
+###################
+# Custom
+www
+node_modules
+vendor
+js/lib
+.DS_Store
+.sass-cache
+.idea
+
+
+
+# Ignore Node & Bower
+###################
+node_modules
+bower_components
+build
+.tmp
+npm-debug.log
+
+# Ignore Test reporters
+###################
+**/test/coverage
+report
+
+
+# mongo db
+###################
+#Don't commit Mongo Database files
+*.lock
+*.0
+*.1
+*.ns
+journal
